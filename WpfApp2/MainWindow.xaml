@@ -1,0 +1,48 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}" >
+
+
+    <Grid>
+
+
+        <materialDesign:Card Padding="10" Margin="66,21,87,0" Height="320">
+            <StackPanel>
+
+                <TextBlock HorizontalAlignment="Left"  Margin="176,0,0,0" TextWrapping="Wrap"  FontSize="24"  Height="32" Width="156"> <Run Text="Material Card"/></TextBlock>
+
+                <TextBox HorizontalAlignment="Left"   Margin="0,0,0,0"     TextWrapping="Wrap"  Text="Name:" Width="100" FontSize="20"  />
+                <TextBox HorizontalAlignment="Left"  Margin="150,-35,0,0" TextWrapping="Wrap"  Foreground="#DD3A00FF"  Text="Oleg"  Width="121" FontSize="20" />
+
+
+                <TextBox HorizontalAlignment="Left"  Margin="0,10,0,0"    TextWrapping="Wrap"  Text="Age:"  Width="100" FontSize="20" />
+                <TextBox HorizontalAlignment="Left"  Margin="150,-35,0,0" TextWrapping="Wrap"  Foreground="#DD3A00FF" Text="27"  Width="121"  FontSize="20" />
+
+
+                <TextBox HorizontalAlignment="Left"  Margin="0,15,0,0"     TextWrapping="Wrap"  Text="Gender:"  Width="100"  FontSize="20" />
+                <TextBox HorizontalAlignment="Left"  Margin="150,-35,0,0"  TextWrapping="Wrap"  Foreground="#DD3A00FF"  Text="Men" Width="121"  FontSize="20"  />
+
+                <TextBox HorizontalAlignment="Left"  Margin="0,15,0,0"     TextWrapping="Wrap"  Text="Work:"  Width="100"  FontSize="20" />
+                <TextBox HorizontalAlignment="Left"  Margin="150,-35,0,0"  TextWrapping="Wrap"  Foreground="#DD3A00FF" Text="Programmer" Width="121" FontSize="20"/>
+
+            </StackPanel>
+
+        </materialDesign:Card>
+
+
+
+    </Grid>
+</Window>
